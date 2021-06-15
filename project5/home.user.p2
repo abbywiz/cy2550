@@ -1,0 +1,16 @@
+# Last Modified: Mon Jun 14 18:15:40 2021
+#include <tunables/global>
+
+/home/abwiz/p2 flags=(audit) {
+  #include <abstractions/base>
+  #include <abstractions/nameservice>
+  #include <abstractions/user-tmp>
+
+  /etc/hostid r,
+  /etc/timezone r,
+  /proc/uptime r,
+  /var/log/syslog r,
+  @{HOME}/.project2/config w,
+  @{HOME}/template r,
+
+}

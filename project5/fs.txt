@@ -1,0 +1,10 @@
+chmod 551 /proc
+chmod 551 /proc/.
+chmod 551 /proc/..
+chmod 755 /home/bob
+chmod 755 /home/bob/.
+chmod 551 /sys
+chmod 551 /sys/.
+chmod 551 /sys/..
+chmod 764 /var/log
+chmod 620 /dev/console
