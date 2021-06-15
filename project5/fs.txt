@@ -6,14 +6,11 @@ chmod 755 /home/bob/.
 chmod 555 /sys
 chmod 555 /sys/.
 chmod 555 /sys/..
-chmod 755 /var/log
-chmod 600 /dev/console
+chmod 775 /var/log
+chmod 620 /dev/console
 chmod 755 /usr/sbin/adduser
 chmod 755 /bin/sha1sum
 chmod 755 /bin/bash
 chmod 755 /bin/ls
-chmod 411 /bin/passwd
-chmod 610 /etc/ssl/private
-chmod 610 /etc/private
-chmod 644 /etc/fstab
+chmod 710 /etc/ssl/private
 
