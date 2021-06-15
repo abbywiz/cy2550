@@ -1,10 +1,19 @@
-chmod 551 /proc
-chmod 551 /proc/.
-chmod 551 /proc/..
+chmod 555 /proc
+chmod 555 /proc/.
+chmod 555 /proc/..
 chmod 755 /home/bob
 chmod 755 /home/bob/.
-chmod 551 /sys
-chmod 551 /sys/.
-chmod 551 /sys/..
-chmod 764 /var/log
-chmod 620 /dev/console
+chmod 555 /sys
+chmod 555 /sys/.
+chmod 555 /sys/..
+chmod 755 /var/log
+chmod 600 /dev/console
+chmod 755 /usr/sbin/adduser
+chmod 755 /bin/sha1sum
+chmod 755 /bin/bash
+chmod 755 /bin/ls
+chmod 411 /bin/passwd
+chmod 610 /etc/ssl/private
+chmod 610 /etc/private
+chmod 644 /etc/fstab
+
